@@ -1,0 +1,20 @@
+{
+  "name": "whh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server server/db.js  -p 3003"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kavan-whh/whh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kavan-whh/whh/issues"
+  },
+  "homepage": "https://github.com/Kavan-whh/whh#readme"
+}
