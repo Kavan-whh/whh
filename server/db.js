@@ -1,12 +1,12 @@
 var path = require('path')
-// var connect = require('')
+var connect = require('../app/connect.js')
 
 // exports default
 module.exports=function(){
     var data;
     var i = process.argv.length
-    console.log(process.argv)
     var type = process.argv[i-1]
+
     if(type == 3003){
          data= {// 默认数据
              else:{
@@ -15,6 +15,7 @@ module.exports=function(){
              }
          }
     }else {
+        console.log('执行connect');
          data = connect(type)
     }
 

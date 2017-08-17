@@ -1,14 +1,13 @@
 // 数据引入
-var processPreview = require('')
+var processPreview = require('./mock/process__preview.js')
 
 
 // 映射
 var typeObj = {// 数据和key值对应
-    process__preview:process__preview
+    whh:processPreview
 }
 
 module.exports = function(type){
-    return{
-        typeObj[type]
-    }
+    var data = {data:typeObj[type]};
+    return data
 }
