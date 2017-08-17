@@ -7,15 +7,9 @@ module.exports=function(){
     var i = process.argv.length
     var type = process.argv[i-1]
 
-    if(type == 3003){
-         data= {// 默认数据
-             else:{
-                 "id":3,
-                 "else":'fsdf'
-             }
-         }
+    if(type == 3000){
+         data = connect('whh')
     }else {
-        console.log('执行connect');
          data = connect(type)
     }
 
