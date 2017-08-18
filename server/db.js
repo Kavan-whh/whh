@@ -8,7 +8,7 @@ module.exports=function(){
     var type = process.argv[i-1]
 
     if(type == 3000){
-         data = connect('whh')
+         data = connect('all')
     }else {
          data = connect(type)
     }
