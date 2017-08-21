@@ -56,26 +56,39 @@ var data = {
             }]
         }
     },
-
-    "editlist": [{
-            "column_id": "1",
-            "name": "报修金额",
-            "readable": 0,
-            "writable": 0
-        },
-        {
-            "column_id": "2",
-            "name": "部门主管意见",
-            "readable": 0,
-            "writable": 0
-        },
-        {
-            "column_id": "3",
-            "name": "报修金额",
-            "readable": 0,
-            "writable": 0
-        }
-    ],
+    "editlist": {
+        "e": 0,
+        "m": "操作成功",
+        "d": [{
+                "id": 77,
+                "component": "Select",
+                "enname": "select_5",
+                "cnname": "爱好",
+                "auth": "writable"
+            },
+            {
+                "id": 75,
+                "component": "Depart",
+                "enname": "depart_7",
+                "cnname": "人员",
+                "auth": "writable"
+            },
+            {
+                "id": 73,
+                "component": "Input",
+                "enname": "input_9",
+                "cnname": "姓名",
+                "auth": "readable"
+            },
+            {
+                "id": 72,
+                "component": "MultiInput",
+                "enname": "multiInput_10",
+                "cnname": "户口所在地",
+                "auth": "readable"
+            }
+        ]
+    },
 
     "filelist": [{
         "id": "1",
