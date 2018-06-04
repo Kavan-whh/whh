@@ -12,6 +12,5 @@ module.exports=function(){
     }else {
          data = connect(type)
     }
-
     return data
 }

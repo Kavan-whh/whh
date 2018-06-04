@@ -14,5 +14,8 @@ var typeObj = {// 数据和key值对应
 
 module.exports = function(type){// 发送返回数据
     var data = typeObj[type]
+    if(data){
+        console.log(`mock: ${type}数据`)
+    }
     return data
 }
